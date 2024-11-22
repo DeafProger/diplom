@@ -3,7 +3,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import TemplateView
 # from main.forms import MainForm
-from main.models import Service
+from main.models import Service, Doctor
 
 
 # Create your views here.
@@ -17,4 +17,14 @@ class HomePageView(TemplateView):
             count = 7
         services = Service.objects.all().order_by('?')[:count]
         context_data['services'] = services
+        return context_data
+
+
+class AboutView(TemplateView):
+    template_name = 'about.html'
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        doctors = Doctor.objects.all()
+        context_data['doctors'] = doctors
         return context_data

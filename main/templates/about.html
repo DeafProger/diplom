@@ -1,0 +1,56 @@
+{% extends 'basic_template.html' %}
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h3 class="display-3">О нас</h3>
+    <p class="lead">
+Наша клиника открылась 28 ноября 2007 г. в Новосибирске. Это современный многопрофильный лечебно-диагностический центр,
+ филиал которого расположен по линии метро на правом берегу, специализирующийся на оказании амбулаторной терапевтической 
+и диагностической помощи частным, а так же корпоративным клиентам в рамках программ добровольного медицинского страхования 
+(ДМС).
+    </p>
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto  text-center">
+<h3 class="display-6">Концепция</h3>
+    <p class="lead">
+Концепцией нашего центра является внимательное отношение к пациентам и квалифицированная профессиональная помощь.
+    </p>
+</div>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<h3 class="display-6">Особое внимание</h3>
+    <p class="lead">
+Особое внимание уделяется правилам асептики и антисептики по программе «АнтиСПИД – Антигепатит»: одноразовые стерильные наборы, либо полный цикл стерилизации инструментов по системе ГОСТ.
+    </p>
+</div>
+
+<p class="lead">
+Прием ведут опытные доктора высших категорий, кандидаты и доктора медицинских наук, в том числе оперирующие в ведущих клиниках города. Администрация центра использует свой огромный потенциал для обеспечения достойного сервиса нашим пациентам.
+</p>
+
+
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<h3 class="display-6">Наши специалисты </br></h3>
+</div>
+
+<div class="container">
+  <div class="row align-items-start">
+    
+            {% for object in doctors %}
+                <div class="col-4">
+                <img class="card-img-top" src="/media/{{ object.avatar }}">
+                <p class="lead">{{ object.surname }} {{ object.name }} {{ object.patronymic }} </br>
+                    {{ object.specialization }}  </br>
+                    {{ object.qualification }}  </br>
+                    стаж более {{ object.experience }} лет
+                </p>
+                </div>
+            {% endfor %}
+
+</div>
+</div>
+
+
+
+{% endblock %}
