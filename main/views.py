@@ -12,12 +12,9 @@ class HomePageView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)
-        """
-        mailings = Mailing.objects.all()
-        clients = Client.objects.all()
-        context_data['all_mailings'] = mailings.count()
-        context_data['active_mailings'] = mailings.filter(status='started').count()
-        context_data['active_clients'] = clients.values('email').distinct().count()
-        context_data['random_blogs'] = get_blogs_from_cache().order_by('?')[:3]
-        """
+        count = Service.objects.all().count()
+        if count > 7:
+            count = 7
+        services = Service.objects.all().order_by('?')[:count]
+        context_data['services'] = services
         return context_data

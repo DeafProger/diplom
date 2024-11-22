@@ -1,33 +1,20 @@
 {% extends 'basic_template.html' %}
 {% block content %}
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h3 class="display-4">МЦ "Внимание"</h3>
+    <h3 class="display-3">МЦ "Внимание"</h3>
     <p class="lead">
 Медицинский Центр "Внимание" - это многопрофильное лечебно-диагностическое медицинское учреждение. В состав центра входят взрослое и детское отделения. В центре работают доктора высшей категории, кандидаты и доктора медицинских наук, специалисты, оперирующие в ведущих клиниках Новосибирска.
 Используются различные методы диагностики: УЗИ, ЭКГ, функциональная диагностика, спирография, лабораторные исследования. В центре ведут прием специалисты множества направлений, таких как гастроэнтерология, неврология, кардиология, гинекология, стоматология, диетология и др. Также доступен вызов врача на дом.
     </p>
 </div>
 
-<div class="album py-5 bg-body-tertiary">
-    <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            {% for object in random_blogs %}
-            <div class="col">
-                <div class="card shadow-sm">
-                    <img src="{{ object.preview }}">
-                    <div class="card-body">
-                        <p class="card-text">{{ object.title | title }}</p>
-                        <p class="card-text">Содержимое статьи: {{ object.content | title }}</p>
-                        <p class="card-text">Дата создания: {{ object.published_at }}</p>
-                        <p class="card-text">Количество просмотров: {{ object.views_count }}</p>
-                    </div>
-                    <div class="btn">
-                    <a class="btn btn-primary" href="{% url 'blog:blog_detail' object.pk %}" role="button">Посмотреть</a>
-                    </div>
-                </div>
-            </div>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+<h3 class="display-6">В нашей клинике оказывают такие услуги, как:</h3>
+    <p class="lead">
+            {% for object in services %}
+                - {{ object.name }} </br>
             {% endfor %}
-        </div>
-    </div>
+    </p>
+<h3 class="display-6">Полный перечень услуг и их расценок можно получить на странице "Услуги"</h3>
 </div>
 {% endblock %}
