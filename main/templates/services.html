@@ -1,0 +1,21 @@
+{% extends 'basic_template.html' %}
+{% block content %}
+<h3 class="display-6">Перечень предоставляемых медицинских услуг</h3>
+        <div class="row row-cols-1 row-cols-md-1 g-4">
+            {% for object in object_list %}
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">{{ object.name }}</h5> 
+                        <p class="card-text">{{ object.description }} </p> 
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">    
+                                <a class="p-2 btn btn-primary btn-sm" href="/">{{ object.price }} руб.</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+{% endblock %}
