@@ -16,12 +16,12 @@
         <a class="p-2 btn btn-primary" href="/">Главная страница</a>
         <a class="p-2 btn btn-dark" href="/about">О нас</a>
         <a class="p-2 btn btn-dark" href="/">Услуги</a>
-        <a class="p-2 btn btn-dark" href="/">Контакты</a>
+        <a class="p-2 btn btn-dark" href="/contacts">Контакты</a>
         {% if perms.users.can_view_list_of_users %}
         <a class="p-2 btn btn-dark" href="/admin">Админка</a>
         {% endif %}
         {% if user.is_authenticated %}
-        <a class="p-2 btn btn-dark" href="/">Выйти</a>
+        <a class="p-2 btn btn-dark" href="/logout">Выйти</a>
         {% else %}
         <a class="p-2 btn btn-dark" href="/">Личный кабинет</a>
         <a class="p-2 btn btn-dark" href="/">Зарегистрироваться</a>
@@ -56,7 +56,7 @@
         <div class="col-6 col-md">
             <h5>Дополнительно</h5>
             <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="/blog/">Мы пишем</a></li>
+                <li><a class="text-muted" href="/feedback/">Задать вопрос</a></li>
             </ul>
         </div>
         <div class="col-6 col-md">

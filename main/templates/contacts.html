@@ -1,0 +1,79 @@
+{% extends 'basic_template.html' %}
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Контакты</h1>
+
+<div class="container">
+    <div class="row text-start">
+        <div class="col-lg-8 col-md-6 col-sm-12 mx-auto text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                    <table class="table table-striped">
+                        <tr>
+                            <td class="w-25">Адрес клиники:</td>
+                            <td>ул. Дуси Ковальчук, 250</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25">Контактные телефоны:</td>
+                            <td>(383) 349-53-30 | (383) 344-80-07 | (383) 349-53-31 </br> 
+                                (383) 344-80-08 | (383) 213-19-38 | 8-913-704-73-34
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="w-25">Email:</td>
+                            <td>vnimanieuyut@mail.ru</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-start">
+                    <div class="col-lg-12 col-md-6 col-sm-12">
+                        <div class="card mb-4 box-shadow">
+                            <div class="card-body">
+                                <tr>
+                                    <td class="w-25">Проезд до остановки «Магазин Уют»:</br>
+                                        Автобус: №14, №34, №64, №75, №95 </br>
+                                        Троллейбус: №24 </br>
+                                        Маршрутное такси: №9, №19, №25, №30, №34, №45, №53, №73</td>
+                                    <img class="card-img-top" src="/media/mcvnimanie.png" alt="Схема проезда">
+                                </tr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+    <div class="row text-start">
+        <div class="col-lg-8 col-md-6 col-sm-12 mx-auto text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Задать вопрос</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" action="" class="form-floating">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone">Телефон</label>
+                            <input type="text" name="phone" class="form-control" id="phone" placeholder="Контактный телефон" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">Сообщение</label>
+                            <textarea type="text" name="message" class="form-control" id="message" placeholder="Ваш вопрос" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-block btn-outline-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

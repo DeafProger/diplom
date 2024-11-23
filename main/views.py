@@ -1,7 +1,10 @@
 from django.shortcuts import render
+from config.settings import EMAIL_HOST_USER, LOGOUT_REDIRECT_URL
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.urls import reverse_lazy
+from django.shortcuts import get_object_or_404, redirect
+from django.contrib.auth.views import auth_logout
 from django.views.generic import TemplateView
+from django.urls import reverse_lazy
 # from main.forms import MainForm
 from main.models import Service, Doctor
 
@@ -28,3 +31,18 @@ class AboutView(TemplateView):
         doctors = Doctor.objects.all()
         context_data['doctors'] = doctors
         return context_data
+
+
+class ContactsView(TemplateView):
+    template_name = 'contacts.html'
+
+
+class FeedbackView(TemplateView):
+    template_name = 'feedback.html'
+
+
+def logout(request):
+    try:
+        auth_logout(request)
+    finally:
+        return redirect(LOGOUT_REDIRECT_URL)
