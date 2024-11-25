@@ -3,572 +3,39 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2024-11-22T04:12:12.455Z",
+    "action_time": "2024-11-24T17:16:15.215Z",
     "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Первичный прием врача терапевта",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "wewefew - usvval@ya.ru",
+    "action_flag": 3,
+    "change_message": ""
   }
 },
 {
   "model": "admin.logentry",
   "pk": 2,
   "fields": {
-    "action_time": "2024-11-22T04:12:16.878Z",
+    "action_time": "2024-11-24T17:16:15.215Z",
     "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Первичный прием врача терапевта",
-    "action_flag": 2,
-    "change_message": "[]"
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "qwedqw - my@us-val.ru",
+    "action_flag": 3,
+    "change_message": ""
   }
 },
 {
   "model": "admin.logentry",
   "pk": 3,
   "fields": {
-    "action_time": "2024-11-22T04:12:35.902Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "Повторный прием врача терапевта",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2024-11-22T04:13:06.123Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "Краткая консультация врача терапевта по коррекции лечения",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2024-11-22T04:13:32.279Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "Консультативный приём врача терапевта с выдачей справки",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2024-11-22T04:14:08.383Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Оформление санаторно-курортной карты",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2024-11-22T04:14:25.967Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "6",
-    "object_repr": "Консультативный приём врача терапевта с выдачей справки в бассейн",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2024-11-22T04:14:47.632Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Вызов врача терапевта на дом : Ближайшие районы (Калининский р-н до ул. Учительской; Железнодорожный, Центральный р-ны; Заельцовский р-н до Карьера Мочище)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2024-11-22T04:15:16.494Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "8",
-    "object_repr": "Вызов врача терапевта на дом: Карьер Мочище; 5 и 6 микрорайон",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2024-11-22T04:15:37.793Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "9",
-    "object_repr": "Вызов врача терапевта на дом: Отдаленые районы (Ленинский, Кировский, Дзержинский, Октябрьский р-ны)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2024-11-22T04:16:02.313Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "10",
-    "object_repr": "Вызов врача терапевта на дом: Первомайский р-н; г. Обь",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2024-11-22T04:17:51.683Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "11",
-    "object_repr": "Забор крови на анализ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2024-11-22T04:19:14.990Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "12",
-    "object_repr": "УЗИ сердца",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2024-11-22T04:19:34.207Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "13",
-    "object_repr": "УЗИ артерий шеи",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2024-11-22T12:36:27.697Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "Оформление санаторно-курортной карты",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2024-11-22T12:36:27.697Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "10",
-    "object_repr": "Вызов врача терапевта на дом: Первомайский р-н; г. Обь",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2024-11-22T12:36:27.697Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "9",
-    "object_repr": "Вызов врача терапевта на дом: Отдаленые районы (Ленинский, Кировский, Дзержинский, Октябрьский р-ны)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2024-11-22T12:36:27.697Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "8",
-    "object_repr": "Вызов врача терапевта на дом: Карьер Мочище; 5 и 6 микрорайон",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2024-11-22T12:36:27.697Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "7",
-    "object_repr": "Вызов врача терапевта на дом : Ближайшие районы (Калининский р-н до ул. Учительской; Железнодорожный, Центральный р-ны; Заельцовский р-н до Карьера Мочище)",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2024-11-22T12:36:45.229Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "14",
-    "object_repr": "Суточное(холтеровское) мониторирование ЭКГ",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2024-11-22T12:37:05.320Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "15",
-    "object_repr": "Запись ЭКГ (с расшифровкой)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2024-11-22T12:37:32.424Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "16",
-    "object_repr": "Спирография",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2024-11-22T12:38:04.278Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "17",
-    "object_repr": "Комбинированное суточное мониторирование ЭКГ и АД",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2024-11-22T12:39:44.293Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "18",
-    "object_repr": "Бактериоскопическое исследование окрашенного мазка (без морфологии)",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2024-11-22T15:44:02.284Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Скосаревская Сергеевна Юлия, Стоматолог-терапевт, Высшая квалификационная категория",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2024-11-22T15:47:53.705Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "Юрий Владимирович Лутов, Врач-эндокринолог, Д.М.Н., высшая квалификационная категория",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 27,
-  "fields": {
-    "action_time": "2024-11-22T15:48:27.329Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "Юлия Сергеевна Скосаревская, Стоматолог-терапевт, Высшая квалификационная категория",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 28,
-  "fields": {
-    "action_time": "2024-11-22T15:56:59.847Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Светлана Викторовна Самсонова, Врач-гастроэнтеролог,\r\nврач-терапевт,\r\nврач-профпатолог, Высшая квалификационная категория",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 29,
-  "fields": {
-    "action_time": "2024-11-22T15:59:52.276Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "4",
-    "object_repr": "Владимир Борисович Стародубцев, Врач сосудистый хирург\r\nврач ультразвуковой диагностики, д.м.н., Высшая квалификационная категория",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 30,
-  "fields": {
-    "action_time": "2024-11-22T16:02:39.315Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "5",
-    "object_repr": "Татьяна Ивановна Демчук, Врач-кардиолог,\r\nВрач-диетолог,\r\nВрач-реабилитолог, Высшая квалификационная категория",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 31,
-  "fields": {
-    "action_time": "2024-11-22T16:08:46.472Z",
+    "action_time": "2024-11-24T17:19:38.637Z",
     "user": 1,
     "content_type": 6,
-    "object_id": "2",
-    "object_repr": "admin - admin@medcare.ru",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 32,
-  "fields": {
-    "action_time": "2024-11-22T17:30:48.831Z",
-    "user": 1,
-    "content_type": 8,
     "object_id": "4",
-    "object_repr": "Владимир Борисович Стародубцев, Врач сосудистый хирург,\r\nВрач ультразвуковой диагностики, д.м.н., Высшая квалификационная категория",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043f\\u0435\\u0446\\u0438\\u0430\\u043b\\u0438\\u0437\\u0430\\u0446\\u0438\\u044f\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 33,
-  "fields": {
-    "action_time": "2024-11-22T17:31:17.048Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "Светлана Викторовна Самсонова, Врач-гастроэнтеролог,\r\nВрач-терапевт,\r\nВрач-профпатолог, Высшая квалификационная категория",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u0421\\u043f\\u0435\\u0446\\u0438\\u0430\\u043b\\u0438\\u0437\\u0430\\u0446\\u0438\\u044f\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 34,
-  "fields": {
-    "action_time": "2024-11-23T12:22:27.121Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "18",
-    "object_repr": "Бактериоскопическое исследование окрашенного мазка (без морфологии)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 35,
-  "fields": {
-    "action_time": "2024-11-23T12:22:41.595Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "18",
-    "object_repr": "Бактериоскопическое исследование окрашенного мазка (без морфологии)",
-    "action_flag": 2,
-    "change_message": "[]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 36,
-  "fields": {
-    "action_time": "2024-11-23T12:25:47.940Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "Первичный прием врача терапевта",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 37,
-  "fields": {
-    "action_time": "2024-11-23T12:25:57.635Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "Повторный прием врача терапевта",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 38,
-  "fields": {
-    "action_time": "2024-11-23T12:30:24.429Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "17",
-    "object_repr": "Комбинированное суточное мониторирование ЭКГ и АД",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 39,
-  "fields": {
-    "action_time": "2024-11-23T12:31:23.067Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "11",
-    "object_repr": "Забор крови на анализ",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 40,
-  "fields": {
-    "action_time": "2024-11-23T12:32:09.979Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "15",
-    "object_repr": "Запись ЭКГ (с расшифровкой)",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 41,
-  "fields": {
-    "action_time": "2024-11-23T12:33:47.103Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "12",
-    "object_repr": "УЗИ сердца",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 42,
-  "fields": {
-    "action_time": "2024-11-23T12:34:21.458Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "13",
-    "object_repr": "УЗИ артерий шеи",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 43,
-  "fields": {
-    "action_time": "2024-11-23T12:34:44.750Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "14",
-    "object_repr": "Суточное(холтеровское) мониторирование ЭКГ",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 44,
-  "fields": {
-    "action_time": "2024-11-23T12:35:22.661Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "17",
-    "object_repr": "Комбинированное суточное мониторирование ЭКГ и АД",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    "object_repr": "dqdwedwqedwe - usvval@ya.ru",
+    "action_flag": 3,
+    "change_message": ""
   }
 },
 {
@@ -952,10 +419,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "75ucpywz5v1kft3ejq3ahv4hdr2xzfkx",
+  "pk": "03haask4h2ri5ov2ipv402f4avzju53i",
   "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSHyBpfu-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MIEO_1uCfKD2g7wDu3Wee5tXebEd4UfdPCpIz2vh_t3UGHUby2TTsIEElm5DIRGgQkWtcTi0QinpM5glReWnM86KOdSCeQMorfnVNj7A-OEN-o:1tEp2I:omxxiW3JxREpBxgucKBRREZk4iJAbjY4atztT3ZMYf8",
-    "expire_date": "2024-12-07T12:14:50.262Z"
+    "session_data": ".eJxVjDsOwjAQRO_iGllxvP5R0ucM1q7XxgGUSPlUiLvjSCmgGmnem3mLiPtW477mJY4srkKJy29HmJ55OgA_cLrPMs3TtowkD0WedJXDzPl1O92_g4prbeuki_HWExWGFtgTaEK2HhUU14HRWfWgHXbsExCGYGzDQbGyxkEQny_v1zep:1tFFms:xGSVsEKP0b9FvzIpK4yW5pWERKjlkYcIzeBTglR5FZc",
+    "expire_date": "2024-12-08T16:48:42.293Z"
   }
 },
 {
@@ -970,36 +437,19 @@
   "model": "users.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$870000$zCNwAe6nIAAJfD3sm9mZWY$3ojO0GHbygxv6Dqj9NIxPk6M8MAYRt+wEhqI3rSH9sI=",
-    "last_login": "2024-11-23T12:14:50.260Z",
+    "password": "pbkdf2_sha256$870000$dpoMbggW36ULjjMklVRm58$HKR7cehIpHrfv5AW5xQDU/A71/lSgii38DMEPGdG950=",
+    "last_login": "2024-11-24T17:30:39.684Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2024-11-22T04:01:47.262Z",
+    "date_joined": "2024-11-24T16:47:47.842Z",
+    "last_name": "",
     "first_name": "admin",
-    "last_name": null,
-    "email": "q",
-    "phone": null,
-    "verification_code": null,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "users.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$870000$C8NidNdkt1jbbohTWuCeWK$NbZyHa093Bd0v4S7j6QYSywsbIj+fCmUxYyBkMTWcEQ=",
-    "last_login": "2024-11-22T16:09:28.883Z",
-    "is_superuser": false,
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2024-11-22T16:05:55Z",
-    "first_name": "admin",
-    "last_name": null,
+    "nick_name": null,
+    "birth_date": null,
     "email": "admin@medcare.ru",
     "phone": null,
-    "verification_code": null,
+    "token": null,
     "groups": [],
     "user_permissions": []
   }

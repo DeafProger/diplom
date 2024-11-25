@@ -1,5 +1,5 @@
 from main.views import (HomePageView, FeedbackView, ContactsView, AboutView,
-                        ServiceListView, logout)
+                        ServiceListView)
 from main.apps import MainConfig
 from django.urls import path
 
@@ -13,5 +13,4 @@ urlpatterns = [
     path('services/', ServiceListView.as_view(), name='services'),
     path('feedback/', FeedbackView.as_view(), name='feedback'),
     path('about/', AboutView.as_view(), name='about'),
-    path('logout/', logout, name='logout'),
     ]
