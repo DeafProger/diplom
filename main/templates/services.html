@@ -9,10 +9,14 @@
                         
                         <h5 class="card-title">{{ object.name }}</h5> 
                         <p class="card-text">{{ object.description }} </p> 
+                        <p class="card-text">Услугу оказывает {{ object.customer }} </p> 
+                        {% if user.is_authenticated %}
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">    
-                                <a class="p-2 btn btn-primary btn-sm" href="/">{{ object.price }} руб.</a>
+                                <a class="p-2 btn btn-primary btn-sm" href="/records">{{ object.price }} руб.</a>
                         </div>
-                        
+                        {% else %}
+                        <p class="card-text">Цена данной услуги {{ object.price }} руб.</p> 
+                        {% endif %}
                     </div>
                 </div>
             </div>
