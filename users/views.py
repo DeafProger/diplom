@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, redirect
-from django.views.generic import CreateView, ListView, UpdateView
 from config.settings import EMAIL_HOST_USER, LOGOUT_REDIRECT_URL
 from django.contrib.auth.views import auth_logout
+from django.views.generic import CreateView
 from users.forms import UserRegisterForm
 from django.core.mail import send_mail
 from users.models import User

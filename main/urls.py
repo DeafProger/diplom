@@ -1,6 +1,6 @@
 from main.views import (HomePageView, FeedbackView, ContactsView, AboutView,
                         ServiceListView, RecordListView, RecordCreateView,
-                        RecordDetailView)
+                        RecordDeleteView)
 from main.apps import MainConfig
 from django.urls import path
 
@@ -18,5 +18,5 @@ urlpatterns = [
     # Урлы для управления записями
     path('records/', RecordListView.as_view(), name='record_list'),
     path('record_create/', RecordCreateView.as_view(), name='record_form'),
-    path('record/<int:pk>', RecordDetailView.as_view(), name='record_detail'),
+    path('record/<int:pk>', RecordDeleteView.as_view(), name='record_delete'),
     ]

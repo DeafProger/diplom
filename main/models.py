@@ -45,6 +45,10 @@ class Service(models.Model):
 
 long_str2 = 'Желаемая дата записи в формате 31.01.2020 '
 long_str = 'Желаемое время записи в формате 10:00 '
+CHOICES = [('Услуга пока не оказана.',
+            'Не оказано.'),
+           ('Услуга оказана. Результаты диагностики высланы на Ваш e-mail',
+            'Оказано.'),]
 
 
 class Record(models.Model):
@@ -55,6 +59,7 @@ class Record(models.Model):
     record_time = models.TimeField(verbose_name=long_str)
     doctor = models.ForeignKey(Service, max_length=100, verbose_name='Услуга',
                                on_delete=models.CASCADE)
+    result = models.CharField(choices=CHOICES, default=CHOICES[0])
 
     def __str__(self):
         return (f'{self.client.last_name} {self.client.first_name}' +

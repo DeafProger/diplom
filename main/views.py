@@ -1,13 +1,8 @@
-from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.shortcuts import get_object_or_404, redirect
 from django.views.generic import (TemplateView, ListView, UpdateView,
                                   CreateView, DetailView, DeleteView)
-from django.urls import reverse_lazy
 from main.models import Service, Doctor, Record  # and SiteMap
-from users.models import User  # and SiteMap
 from main.forms import RecordForm
-from django.contrib.auth import get_user
 from django.http import QueryDict
 
 
@@ -82,7 +77,7 @@ class RecordUpdateView(LoginRequiredMixin, UpdateView):
         item = self.get_object()
         context['title'] = ('Редактирование записи клиента ' +
                             f'{item.client.first_name} ' +
-                            f'{item.client.last_name}')git add
+                            f'{item.client.last_name}')
         return context
 
 
@@ -105,4 +100,14 @@ class RecordDetailView(DetailView):
     model = Record
     form_class = RecordForm
     template_name = 'record_detail.html'
-    success_url = '/record_list'
+    success_url = '/records'
+
+
+class RecordDeleteView(LoginRequiredMixin, DeleteView):
+    model = Record
+    template_name = 'record_delete.html'
+    success_url = '/records'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        return context

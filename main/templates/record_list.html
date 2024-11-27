@@ -4,18 +4,16 @@
         <a class="btn btn-outline-primary" href="/record_create">Записаться на услугу</a>
     </div>
     {% for object in object_list %}
-        <div class="col-4">
+        <div class="col-12">
             <div class="card mb-4 box-shadow">
                 <div class="card-body">
-                    <p class="card-text">
-                        {{ object.client }}
+                    <p class="card-text">       
+                        Были записаны на услугу {{ object.doctor }} на {{ object.record_date }} в {{ object.record_time }}. </br>
+                        {{ object.result }}
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-end">                              
+                           <a href="/record/{{object.pk}}" class="btn btn-sm btn-danger" justify-content-md-end">Удалить</a>
+                      </div>
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="/record/{{object.pk}}"
-                               class="btn btn-sm btn-outline-primary">Подробнее</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

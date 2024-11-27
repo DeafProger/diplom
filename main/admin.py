@@ -15,4 +15,5 @@ class DoctorAdmin(admin.ModelAdmin):
 
 @admin.register(Record)
 class RecordAdmin(admin.ModelAdmin):
-    list_display = ['pk', 'client', 'record_date', 'record_time', 'doctor']
+    list_display = ['pk', 'client', 'record_date', 'record_time', 'doctor',
+                    'result']

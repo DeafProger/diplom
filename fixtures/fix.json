@@ -260,6 +260,162 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-11-27T04:21:11.946Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "50",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу Первичный прием врача терапевта на 2020-01-31 в 22:22:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-11-27T04:21:39.654Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "38",
+    "object_repr": " adminNone, Вы записаны на услугу УЗИ сердца на 2020-01-31 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-11-27T04:22:26.702Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "50",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу Первичный прием врача терапевта на 2020-01-31 в 22:22:00",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-11-27T04:22:49.912Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "49",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу УЗИ сердца на 2020-01-31 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-11-27T04:22:59.636Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "29",
+    "object_repr": " adminNone, Вы записаны на услугу УЗИ сердца на 2020-01-31 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-11-27T04:23:06.934Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "28",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу УЗИ артерий шеи на 2020-01-31 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-11-27T04:23:11.715Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "27",
+    "object_repr": " adminNone, Вы записаны на услугу УЗИ сердца на 2020-01-31 в 10:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-11-27T04:23:18.414Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "26",
+    "object_repr": "Unknow adminNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2020-01-31 в 10:00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-11-27T04:23:24.594Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Unknow adminNone, Вы записаны на услугу УЗИ сердца на 2020-01-31 в 10:00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-11-27T04:23:32.740Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": " adminNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2020-01-31 в 10:00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-11-27T04:23:35.565Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу Забор крови на анализ на 2020-11-30 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-11-27T04:23:40.279Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2020-01-31 в 10:00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -728,6 +884,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "bisbkv0zhz41sp3u18maph5zde0wl3xl",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xUko6XMGa73exQFkS3FSIe6OLKWA9s3Me4sAx57D0WgLaxJX4cXld4uATyodpAeUe5VYy76tUXZFnrTJpSZ63U737yBDy712ANbMaeToBs1Oq4SjwQEZDCGoqNmAZXaKyLKPiryj6OfJOuTJWvH5AhA5OOQ:1tGA2c:7UmDdNjan2qNAjewr6wNA19DiGFFUsuGOHHtV3n2GlA",
+    "expire_date": "2024-12-11T04:52:42.895Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "gel9rgs3kwv9svnruevzlm6hs2m40i76",
   "fields": {
     "session_data": ".eJxVjMsOwiAQRf-FtSHyBpfu-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MIEO_1uCfKD2g7wDu3Wee5tXebEd4UfdPCpIz2vh_t3UGHUby2TTsIEElm5DIRGgQkWtcTi0QinpM5glReWnM86KOdSCeQMorfnVNj7A-OEN-o:1tEWF2:eV-GtJdKQE68oMyOuHvp55rvhnxoyVA4ugFk-06pX64",
@@ -759,8 +923,8 @@
   "model": "users.user",
   "pk": 5,
   "fields": {
-    "password": "pbkdf2_sha256$870000$HhUjUf2f6Zcrm8D3xOlXoT$4rncxKyRXF5fPORygNqOWIQW6pZb6KNrF2Z6vXBBsR0=",
-    "last_login": "2024-11-25T06:53:26.578Z",
+    "password": "pbkdf2_sha256$870000$iwK1JtKZuQOmhuTUPdYGBw$07wC0Un2wbcVHmr8lTJJJvCdreHPj/o/yh/QBgjfKp4=",
+    "last_login": "2024-11-27T04:20:18.254Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,
@@ -781,7 +945,7 @@
   "pk": 6,
   "fields": {
     "password": "pbkdf2_sha256$870000$o6K1jyFypFCenDCLInbfqJ$aC196NFPPluCAfT1Hy9wr5284GQu22KxStuK40lm+a8=",
-    "last_login": "2024-11-25T05:12:08.019Z",
+    "last_login": "2024-11-27T04:52:42.893Z",
     "is_superuser": false,
     "is_staff": false,
     "is_active": true,
@@ -999,17 +1163,96 @@
     "client": 6,
     "record_date": "2020-01-31",
     "record_time": "10:00:00",
-    "doctor": 18
+    "doctor": 18,
+    "result": "Услуга пока не оказана."
   }
 },
 {
   "model": "main.record",
-  "pk": 2,
+  "pk": 17,
+  "fields": {
+    "client": 5,
+    "record_date": "2020-01-31",
+    "record_time": "10:00:00",
+    "doctor": 18,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 18,
+  "fields": {
+    "client": 1,
+    "record_date": "2020-01-31",
+    "record_time": "10:00:00",
+    "doctor": 12,
+    "result": "Услуга оказана. Результаты диагностики высланы на Ваш e-mail"
+  }
+},
+{
+  "model": "main.record",
+  "pk": 26,
+  "fields": {
+    "client": 1,
+    "record_date": "2020-01-31",
+    "record_time": "10:00:00",
+    "doctor": 18,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 28,
   "fields": {
     "client": 6,
-    "record_date": "2020-11-30",
+    "record_date": "2020-01-31",
     "record_time": "11:11:00",
-    "doctor": 11
+    "doctor": 13,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 29,
+  "fields": {
+    "client": 5,
+    "record_date": "2020-01-31",
+    "record_time": "11:11:00",
+    "doctor": 12,
+    "result": "Услуга оказана. Результаты диагностики высланы на Ваш e-mail"
+  }
+},
+{
+  "model": "main.record",
+  "pk": 38,
+  "fields": {
+    "client": 5,
+    "record_date": "2020-01-31",
+    "record_time": "11:11:00",
+    "doctor": 12,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 49,
+  "fields": {
+    "client": 6,
+    "record_date": "2020-01-31",
+    "record_time": "11:11:00",
+    "doctor": 12,
+    "result": "Услуга оказана. Результаты диагностики высланы на Ваш e-mail"
+  }
+},
+{
+  "model": "main.record",
+  "pk": 50,
+  "fields": {
+    "client": 6,
+    "record_date": "2020-01-31",
+    "record_time": "22:22:00",
+    "doctor": 1,
+    "result": "Услуга пока не оказана."
   }
 }
 ]
