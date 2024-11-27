@@ -45,8 +45,7 @@ class Service(models.Model):
 
 long_str2 = 'Желаемая дата записи в формате 31.01.2020 '
 long_str = 'Желаемое время записи в формате 10:00 '
-CHOICES = [('Услуга пока не оказана.',
-            'Не оказано.'),
+CHOICES = [('Услуга пока не оказана.', 'Не оказано.'),
            ('Услуга оказана. Результаты диагностики высланы на Ваш e-mail',
             'Оказано.'),]
 
@@ -69,9 +68,3 @@ class Record(models.Model):
     class Meta:
         verbose_name = 'запись'
         verbose_name_plural = 'записи'
-        permissions = [
-            ('can_add_record', 'Может добавлять запись'),
-            ('can_change_record', 'Может изменять запись'),
-            ('can_view_record', 'Может просматривать запись'),
-            ('can_delete_record', 'Может удалять запись'),
-        ]
