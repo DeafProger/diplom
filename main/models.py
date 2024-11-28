@@ -1,3 +1,6 @@
+from django.core.validators import MinValueValidator, MaxValueValidator
+from time import gmtime, strftime, time
+from datetime import timedelta, date, datetime
 from django.db import models
 from users.models import User
 
@@ -43,8 +46,12 @@ class Service(models.Model):
         ordering = ['name']
 
 
-long_str2 = 'Желаемая дата записи в формате 31.01.2020 '
-long_str = 'Желаемое время записи в формате 10:00 '
+long_str2 = ('Введите желаемую дату записи от ' +
+             f'{strftime("%d.%m.%Y", gmtime(int(time())+24*3600))}' +
+             f' до {strftime("%d.%m.%Y", gmtime(int(time())+28*24*3600))}')
+long_str = ('Желаемое время записи от ' +
+            f'{strftime("%H:%M", gmtime(8*3600))}' +
+            f' до {strftime("%H:%M", gmtime(18*3600))}')
 CHOICES = [('Услуга пока не оказана.', 'Не оказано.'),
            ('Услуга оказана. Результаты диагностики высланы на Ваш e-mail',
             'Оказано.'),]
@@ -54,11 +61,22 @@ class Record(models.Model):
     client = models.ForeignKey(User, on_delete=models.CASCADE,
                                related_name="creator_record",
                                verbose_name='Клиент')
-    record_date = models.DateField(verbose_name=long_str2)
-    record_time = models.TimeField(verbose_name=long_str)
+    record_date = models.DateField(verbose_name=long_str2,
+                                   validators=[MaxValueValidator(date.today() +
+                                               timedelta(days=28)),
+                                               MinValueValidator(date.today() +
+                                               timedelta(days=1))])
+    record_time = models.TimeField(verbose_name=long_str,
+                                   validators=[MinValueValidator(datetime.
+                                               strptime('08:00', "%H:%M").
+                                               time()),
+                                               MaxValueValidator(datetime.
+                                               strptime('18:00', "%H:%M").
+                                               time())])
     doctor = models.ForeignKey(Service, max_length=100, verbose_name='Услуга',
                                on_delete=models.CASCADE)
-    result = models.CharField(choices=CHOICES, default=CHOICES[0])
+    result = models.CharField(choices=CHOICES,
+                              default='Услуга пока не оказана.')
 
     def __str__(self):
         return (f'{self.client.last_name} {self.client.first_name}' +

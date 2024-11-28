@@ -12,6 +12,8 @@ class StyleFormMixin:
 
 
 class RecordForm(StyleFormMixin, ModelForm):
+
     class Meta:
         model = Record
+        # fields = '__all__'
         exclude = ['result']
