@@ -4,6 +4,7 @@ from users.models import User
 
 
 class UserRegisterForm(StyleFormMixin, UserCreationForm):
+    # class UserRegisterForm(UserCreationForm):
     """Класс форма для регистрации пользователей"""
     class Meta:
         model = User

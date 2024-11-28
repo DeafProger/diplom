@@ -1,7 +1,7 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import (TemplateView, ListView, UpdateView,
                                   CreateView, DetailView, DeleteView)
-from main.models import Service, Doctor, Record  # and SiteMap
+from main.models import Service, Doctor, Record
 from main.forms import RecordForm
 from django.http import QueryDict
 

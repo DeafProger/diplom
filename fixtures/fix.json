@@ -635,69 +635,6 @@
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add Услуга",
-    "content_type": 7,
-    "codename": "add_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 26,
-  "fields": {
-    "name": "Can change Услуга",
-    "content_type": 7,
-    "codename": "change_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 27,
-  "fields": {
-    "name": "Can delete Услуга",
-    "content_type": 7,
-    "codename": "delete_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 28,
-  "fields": {
-    "name": "Can view Услуга",
-    "content_type": 7,
-    "codename": "view_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 29,
-  "fields": {
-    "name": "Может добавлять услугу",
-    "content_type": 7,
-    "codename": "can_add_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 30,
-  "fields": {
-    "name": "Может изменять услугу",
-    "content_type": 7,
-    "codename": "can_change_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 31,
-  "fields": {
-    "name": "Может просматривать услугу",
-    "content_type": 7,
-    "codename": "can_view_service"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 32,
-  "fields": {
     "name": "Can add врач",
     "content_type": 8,
     "codename": "add_doctor"
@@ -705,7 +642,7 @@
 },
 {
   "model": "auth.permission",
-  "pk": 33,
+  "pk": 26,
   "fields": {
     "name": "Can change врач",
     "content_type": 8,
@@ -714,7 +651,7 @@
 },
 {
   "model": "auth.permission",
-  "pk": 34,
+  "pk": 27,
   "fields": {
     "name": "Can delete врач",
     "content_type": 8,
@@ -723,7 +660,7 @@
 },
 {
   "model": "auth.permission",
-  "pk": 35,
+  "pk": 28,
   "fields": {
     "name": "Can view врач",
     "content_type": 8,
@@ -732,7 +669,43 @@
 },
 {
   "model": "auth.permission",
-  "pk": 36,
+  "pk": 29,
+  "fields": {
+    "name": "Can add Услуга",
+    "content_type": 7,
+    "codename": "add_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Услуга",
+    "content_type": 7,
+    "codename": "change_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Услуга",
+    "content_type": 7,
+    "codename": "delete_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Услуга",
+    "content_type": 7,
+    "codename": "view_service"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
   "fields": {
     "name": "Can add запись",
     "content_type": 9,
@@ -741,7 +714,7 @@
 },
 {
   "model": "auth.permission",
-  "pk": 37,
+  "pk": 34,
   "fields": {
     "name": "Can change запись",
     "content_type": 9,
@@ -750,7 +723,7 @@
 },
 {
   "model": "auth.permission",
-  "pk": 38,
+  "pk": 35,
   "fields": {
     "name": "Can delete запись",
     "content_type": 9,
@@ -759,47 +732,11 @@
 },
 {
   "model": "auth.permission",
-  "pk": 39,
+  "pk": 36,
   "fields": {
     "name": "Can view запись",
     "content_type": 9,
     "codename": "view_record"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 40,
-  "fields": {
-    "name": "Может добавлять запись",
-    "content_type": 9,
-    "codename": "can_add_record"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 41,
-  "fields": {
-    "name": "Может изменять запись",
-    "content_type": 9,
-    "codename": "can_change_record"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 42,
-  "fields": {
-    "name": "Может просматривать запись",
-    "content_type": 9,
-    "codename": "can_view_record"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 43,
-  "fields": {
-    "name": "Может удалять запись",
-    "content_type": 9,
-    "codename": "can_delete_record"
   }
 },
 {
@@ -884,18 +821,26 @@
 },
 {
   "model": "sessions.session",
-  "pk": "c043hbesheqnjfytfae7jm49uk9vra0h",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hDoFAou3XsGMgyMVA0kpV0Z765NutDtf-_9lwi4rSVsPS9hTuIsjDj9bhHpkesO0h3rrUlqdV3mKHdFHrTLa0v5eTncv4OCvXzrEawbMoLnnJRFHgwpx5BIK0eGLStGNeJkojYEaQKnrPbEBsB7jiTeH-thOAg:1tGDsf:xzQoRAFmgU21qlek6I1izl7QtSfniiNvwvzdEUSeNxU",
-    "expire_date": "2024-12-11T08:58:41.297Z"
-  }
-},
-{
-  "model": "sessions.session",
   "pk": "gel9rgs3kwv9svnruevzlm6hs2m40i76",
   "fields": {
     "session_data": ".eJxVjMsOwiAQRf-FtSHyBpfu-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MIEO_1uCfKD2g7wDu3Wee5tXebEd4UfdPCpIz2vh_t3UGHUby2TTsIEElm5DIRGgQkWtcTi0QinpM5glReWnM86KOdSCeQMorfnVNj7A-OEN-o:1tEWF2:eV-GtJdKQE68oMyOuHvp55rvhnxoyVA4ugFk-06pX64",
     "expire_date": "2024-12-06T16:10:44.879Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kimn0hvuzyga9ow8kxcmhsgi6w2os916",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBm6NDWpfuegQwD2KqhSWlXxrsbki50-997_608H_vsj5o2v0R1VaQuv1tgeabSQHxwua9a1rJvS9BN0Setelpjet1O9-9g5jq3GnsLOQkmEnCULfTR0uiMdAg9WyuDCSO4DsfUGQcUA2WAzAOioCH1-QLIoDbQ:1tGVxH:M7Rk-BXNQeeBhCKT-1-G3hhkrjvEw9Sc69Lx4Ws8pss",
+    "expire_date": "2024-12-12T04:16:39.161Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "meqp06a996uipy0gjme8va2eatjevh2f",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCoDFCX7j0DGWYGqZo2Ke3KeHfbpAvd_vfef6uE61LT2mROA6uLAnX63TLSU8Yd8APH-6RpGpd5yHpX9EGbvk0sr-vh_h1UbHWro7ESGSmIFwqZ0Qch6ELOXsBil4kNGwjOA0lxPXcQNwalP4MtzqnPFxEGOJ0:1tGVlf:t-FyfEL2ikalGL3yK629JxegXzoTdi9QG6kAp6OnLcE",
+    "expire_date": "2024-12-12T04:04:39.977Z"
   }
 },
 {
@@ -923,8 +868,8 @@
   "model": "users.user",
   "pk": 5,
   "fields": {
-    "password": "pbkdf2_sha256$600000$KqvsZemvWQEjvaifmDpUFT$fB7KJNlQR3K3ajCzUqeP1VPixINz+FeiifjDyskCZyU=",
-    "last_login": "2024-11-27T08:58:41.297Z",
+    "password": "pbkdf2_sha256$870000$B0dsj0tQNzWxS3201wr88t$q3tprll/le29pyslRgdohzUh7i0b+o/YdX0bBP5vibo=",
+    "last_login": "2024-11-28T04:16:39.154Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,
