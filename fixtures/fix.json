@@ -416,6 +416,71 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-11-28T11:01:15.854Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "54",
+    "object_repr": " adminNone, Вы записаны на услугу УЗИ сердца на 2024-11-29 в 11:11:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Result\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-11-28T11:20:52.422Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "57",
+    "object_repr": " adminNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2024-11-29 в 10:11:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-11-28T14:30:49.566Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "62",
+    "object_repr": " adminNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2024-11-29 в 08:22:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-11-28T14:30:49.566Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "55",
+    "object_repr": "aefwefwfwe wewerewwNone, Вы записаны на услугу УЗИ артерий шеи на 2024-12-26 в 11:11:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-11-28T14:46:26.569Z",
+    "user": 5,
+    "content_type": 9,
+    "object_id": "67",
+    "object_repr": " adminNone, Вы записаны на услугу Бактериоскопическое исследование окрашенного мазка (без морфологии) на 2024-12-22 в 11:11:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -821,18 +886,18 @@
 },
 {
   "model": "sessions.session",
-  "pk": "gel9rgs3kwv9svnruevzlm6hs2m40i76",
+  "pk": "aduxfudjwnp49k967m2jfxk4z2g473xx",
   "fields": {
-    "session_data": ".eJxVjMsOwiAQRf-FtSHyBpfu-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MIEO_1uCfKD2g7wDu3Wee5tXebEd4UfdPCpIz2vh_t3UGHUby2TTsIEElm5DIRGgQkWtcTi0QinpM5glReWnM86KOdSCeQMorfnVNj7A-OEN-o:1tEWF2:eV-GtJdKQE68oMyOuHvp55rvhnxoyVA4ugFk-06pX64",
-    "expire_date": "2024-12-06T16:10:44.879Z"
+    "session_data": ".eJxVjEEOwiAQRe_C2hBm6NDWpfuegQwD2KqhSWlXxrsbki50-997_608H_vsj5o2v0R1VaQuv1tgeabSQHxwua9a1rJvS9BN0Setelpjet1O9-9g5jq3GnsLOQkmEnCULfTR0uiMdAg9WyuDCSO4DsfUGQcUA2WAzAOioCH1-QLIoDbQ:1tGfzX:0H3P-VdmRVJB9TiiNLjUfX7LZ3qnFCw1J8pEnJLdflw",
+    "expire_date": "2024-12-12T14:59:39.579Z"
   }
 },
 {
   "model": "sessions.session",
-  "pk": "kimn0hvuzyga9ow8kxcmhsgi6w2os916",
+  "pk": "gel9rgs3kwv9svnruevzlm6hs2m40i76",
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBm6NDWpfuegQwD2KqhSWlXxrsbki50-997_608H_vsj5o2v0R1VaQuv1tgeabSQHxwua9a1rJvS9BN0Setelpjet1O9-9g5jq3GnsLOQkmEnCULfTR0uiMdAg9WyuDCSO4DsfUGQcUA2WAzAOioCH1-QLIoDbQ:1tGVxH:M7Rk-BXNQeeBhCKT-1-G3hhkrjvEw9Sc69Lx4Ws8pss",
-    "expire_date": "2024-12-12T04:16:39.161Z"
+    "session_data": ".eJxVjMsOwiAQRf-FtSHyBpfu-w1kYAapGkhKuzL-uzbpQrf3nHNfLMK21rgNWuKM7MIEO_1uCfKD2g7wDu3Wee5tXebEd4UfdPCpIz2vh_t3UGHUby2TTsIEElm5DIRGgQkWtcTi0QinpM5glReWnM86KOdSCeQMorfnVNj7A-OEN-o:1tEWF2:eV-GtJdKQE68oMyOuHvp55rvhnxoyVA4ugFk-06pX64",
+    "expire_date": "2024-12-06T16:10:44.879Z"
   }
 },
 {
@@ -848,7 +913,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$dpoMbggW36ULjjMklVRm58$HKR7cehIpHrfv5AW5xQDU/A71/lSgii38DMEPGdG950=",
-    "last_login": "2024-11-24T17:30:39Z",
+    "last_login": "2024-11-28T14:58:37.373Z",
     "is_superuser": false,
     "is_staff": true,
     "is_active": true,
@@ -869,7 +934,7 @@
   "pk": 5,
   "fields": {
     "password": "pbkdf2_sha256$870000$B0dsj0tQNzWxS3201wr88t$q3tprll/le29pyslRgdohzUh7i0b+o/YdX0bBP5vibo=",
-    "last_login": "2024-11-28T04:16:39.154Z",
+    "last_login": "2024-11-28T14:59:39.578Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,
@@ -890,7 +955,7 @@
   "pk": 6,
   "fields": {
     "password": "pbkdf2_sha256$870000$o6K1jyFypFCenDCLInbfqJ$aC196NFPPluCAfT1Hy9wr5284GQu22KxStuK40lm+a8=",
-    "last_login": "2024-11-27T04:52:42.893Z",
+    "last_login": "2024-11-28T14:49:59.911Z",
     "is_superuser": false,
     "is_staff": false,
     "is_active": true,
@@ -1114,17 +1179,6 @@
 },
 {
   "model": "main.record",
-  "pk": 17,
-  "fields": {
-    "client": 5,
-    "record_date": "2020-01-31",
-    "record_time": "10:00:00",
-    "doctor": 18,
-    "result": "Услуга пока не оказана."
-  }
-},
-{
-  "model": "main.record",
   "pk": 18,
   "fields": {
     "client": 1,
@@ -1142,17 +1196,6 @@
     "record_date": "2020-01-31",
     "record_time": "10:00:00",
     "doctor": 18,
-    "result": "Услуга пока не оказана."
-  }
-},
-{
-  "model": "main.record",
-  "pk": 28,
-  "fields": {
-    "client": 6,
-    "record_date": "2020-01-31",
-    "record_time": "11:11:00",
-    "doctor": 13,
     "result": "Услуга пока не оказана."
   }
 },
@@ -1197,6 +1240,39 @@
     "record_date": "2020-01-31",
     "record_time": "22:22:00",
     "doctor": 1,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 70,
+  "fields": {
+    "client": 5,
+    "record_date": "2024-11-29",
+    "record_time": "11:11:00",
+    "doctor": 14,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 71,
+  "fields": {
+    "client": 1,
+    "record_date": "2024-12-26",
+    "record_time": "11:11:00",
+    "doctor": 6,
+    "result": "Услуга пока не оказана."
+  }
+},
+{
+  "model": "main.record",
+  "pk": 72,
+  "fields": {
+    "client": 5,
+    "record_date": "2024-12-25",
+    "record_time": "18:00:00",
+    "doctor": 18,
     "result": "Услуга пока не оказана."
   }
 }

@@ -92,7 +92,7 @@ class RecordCreateView(LoginRequiredMixin, CreateView):
         if queryset.get('data') is None:
             queryset['data'] = QueryDict(f'client={self.request.user.pk}',
                                          mutable=True)
-        print(queryset)  # for debug
+        # print(queryset)  # for debug
         return queryset
 
 
