@@ -805,6 +805,42 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Контакт",
+    "content_type": 10,
+    "codename": "add_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Контакт",
+    "content_type": 10,
+    "codename": "change_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Контакт",
+    "content_type": 10,
+    "codename": "delete_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Контакт",
+    "content_type": 10,
+    "codename": "view_feedback"
+  }
+},
+{
   "model": "contenttypes.contenttype",
   "pk": 1,
   "fields": {
@@ -877,19 +913,19 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "main",
+    "model": "feedback"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "03haask4h2ri5ov2ipv402f4avzju53i",
   "fields": {
     "session_data": ".eJxVjDsOwjAQRO_iGllxvP5R0ucM1q7XxgGUSPlUiLvjSCmgGmnem3mLiPtW477mJY4srkKJy29HmJ55OgA_cLrPMs3TtowkD0WedJXDzPl1O92_g4prbeuki_HWExWGFtgTaEK2HhUU14HRWfWgHXbsExCGYGzDQbGyxkEQny_v1zep:1tFFms:xGSVsEKP0b9FvzIpK4yW5pWERKjlkYcIzeBTglR5FZc",
     "expire_date": "2024-12-08T16:48:42.293Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "aduxfudjwnp49k967m2jfxk4z2g473xx",
-  "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hBm6NDWpfuegQwD2KqhSWlXxrsbki50-997_608H_vsj5o2v0R1VaQuv1tgeabSQHxwua9a1rJvS9BN0Setelpjet1O9-9g5jq3GnsLOQkmEnCULfTR0uiMdAg9WyuDCSO4DsfUGQcUA2WAzAOioCH1-QLIoDbQ:1tGfzX:0H3P-VdmRVJB9TiiNLjUfX7LZ3qnFCw1J8pEnJLdflw",
-    "expire_date": "2024-12-12T14:59:39.579Z"
   }
 },
 {
@@ -906,6 +942,14 @@
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2hCoDFCX7j0DGWYGqZo2Ke3KeHfbpAvd_vfef6uE61LT2mROA6uLAnX63TLSU8Yd8APH-6RpGpd5yHpX9EGbvk0sr-vh_h1UbHWro7ESGSmIFwqZ0Qch6ELOXsBil4kNGwjOA0lxPXcQNwalP4MtzqnPFxEGOJ0:1tGVlf:t-FyfEL2ikalGL3yK629JxegXzoTdi9QG6kAp6OnLcE",
     "expire_date": "2024-12-12T04:04:39.977Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "owkdb20sog4j5yhyiut2rkxva3dbn0nl",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyFFfgoevfsMZJddpGogKe3J-O62SQ96nPm-mbeIsC4lrp3nOJG4CCtOvx1CenLdAT2g3ptMrS7zhHJX5EG7vDXi1_Vw_w4K9LKtlePkvRmD1y5opykAaVJb5JGIzgYtBsqBNLAyxhsYVEaX0WZvacji8wXakDgn:1tGxec:-fmdzmO06EbP9elG12Gni6gs4zKgYWJZMSuYGXso9dw",
+    "expire_date": "2024-12-13T09:51:14.879Z"
   }
 },
 {
@@ -933,8 +977,8 @@
   "model": "users.user",
   "pk": 5,
   "fields": {
-    "password": "pbkdf2_sha256$870000$B0dsj0tQNzWxS3201wr88t$q3tprll/le29pyslRgdohzUh7i0b+o/YdX0bBP5vibo=",
-    "last_login": "2024-11-28T14:59:39.578Z",
+    "password": "pbkdf2_sha256$870000$X17fiYbMFFpB5NPzg8RMh5$62/dfbngsdv9+6T1FQUvZDABlKAOoLjSGtZKxrVDS7o=",
+    "last_login": "2024-11-29T09:51:14.874Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,

@@ -9,12 +9,13 @@ main\apps.py                                                                    
 main\forms.py                                                                           11      3    73%
 main\migrations\0001_initial.py                                                          7      0   100%
 main\migrations\0002_alter_record_record_date_alter_record_record_time_and_more.py       6      0   100%
+main\migrations\0003_alter_record_record_date.py                                         6      0   100%
 main\migrations\__init__.py                                                              0      0   100%
 main\models.py                                                                          43      3    93%
 main\templatetags\my_tags.py                                                             7      3    57%
 main\tests.py                                                                           22      0   100%
 main\urls.py                                                                             5      0   100%
-main\views.py                                                                           77     29    62%
+main\views.py                                                                          100     44    56%
 manage.py                                                                               11      2    82%
 users\__init__.py                                                                        0      0   100%
 users\admin.py                                                                           5      0   100%
@@ -29,4 +30,4 @@ users\tests.py                                                                  
 users\urls.py                                                                            6      0   100%
 users\views.py                                                                          32     16    50%
 --------------------------------------------------------------------------------------------------------
-TOTAL                                                                                  353     56    84%
+TOTAL                                                                                  382     71    81%

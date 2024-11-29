@@ -5,6 +5,10 @@ from main.models import Service, Doctor, Record
 from main.forms import RecordForm
 from django.http import QueryDict
 
+from django.shortcuts import redirect, render
+from config.settings import EMAIL_HOST_USER
+from django.core.mail import send_mail
+
 
 # Create your views here.
 class HomePageView(TemplateView):
@@ -18,6 +22,18 @@ class HomePageView(TemplateView):
         services = Service.objects.all().order_by('?')[:count]
         context_data['services'] = services
         return context_data
+
+    def post(self, request, *args, **kwargs):
+        if self.request:
+            for e in request:
+                send_mail(
+                    subject='Отправлено сообщение с домашней страницы',
+                    message=f'{e.decode('utf-8')}',
+                    from_email=EMAIL_HOST_USER,
+                    recipient_list=[EMAIL_HOST_USER],
+                )
+            return redirect('/')
+        return render(request, self.template_name)
 
 
 class AboutView(TemplateView):
@@ -43,10 +59,36 @@ class ServiceListView(ListView):
 
 class ContactsView(TemplateView):
     template_name = 'contacts.html'
+    success_url = '/'
+
+    def post(self, request, *args, **kwargs):
+        if self.request:
+            for e in request:
+                send_mail(
+                    subject='Отправлено сообщение со страницы contacts',
+                    message=f'{e.decode('utf-8')}',
+                    from_email=EMAIL_HOST_USER,
+                    recipient_list=[EMAIL_HOST_USER],
+                )
+            return redirect('/')
+        return render(request, self.template_name)
 
 
 class FeedbackView(TemplateView):
     template_name = 'feedback.html'
+    success_url = '/'
+
+    def post(self, request, *args, **kwargs):
+        if self.request:
+            for e in request:
+                send_mail(
+                    subject='Отправлено сообщение со страницы feedback',
+                    message=f'{e.decode('utf-8')}',
+                    from_email=EMAIL_HOST_USER,
+                    recipient_list=[EMAIL_HOST_USER],
+                )
+            return redirect('/')
+        return render(request, self.template_name)
 
 
 # =============================================================================
