@@ -946,10 +946,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "owkdb20sog4j5yhyiut2rkxva3dbn0nl",
+  "pk": "v7bzbmx5jxeutjstfghgn9c6ft5tztd8",
   "fields": {
-    "session_data": ".eJxVjM0OwiAQhN-FsyFFfgoevfsMZJddpGogKe3J-O62SQ96nPm-mbeIsC4lrp3nOJG4CCtOvx1CenLdAT2g3ptMrS7zhHJX5EG7vDXi1_Vw_w4K9LKtlePkvRmD1y5opykAaVJb5JGIzgYtBsqBNLAyxhsYVEaX0WZvacji8wXakDgn:1tGxec:-fmdzmO06EbP9elG12Gni6gs4zKgYWJZMSuYGXso9dw",
-    "expire_date": "2024-12-13T09:51:14.879Z"
+    "session_data": ".eJxVjM0OwiAQhN-FsyFFfgoevfsMZJddpGogKe3J-O62SQ96nPm-mbeIsC4lrp3nOJG4CCtOvx1CenLdAT2g3ptMrS7zhHJX5EG7vDXi1_Vw_w4K9LKtlePkvRmD1y5opykAaVJb5JGIzgYtBsqBNLAyxhsYVEaX0WZvacji8wXakDgn:1tHe9G:BF1OXA7NgPKjvFlpi0eDACLj1c_cozqTQREpuz7KkZI",
+    "expire_date": "2024-12-15T07:13:42.765Z"
   }
 },
 {
@@ -978,7 +978,7 @@
   "pk": 5,
   "fields": {
     "password": "pbkdf2_sha256$870000$X17fiYbMFFpB5NPzg8RMh5$62/dfbngsdv9+6T1FQUvZDABlKAOoLjSGtZKxrVDS7o=",
-    "last_login": "2024-11-29T09:51:14.874Z",
+    "last_login": "2024-12-01T07:13:42.763Z",
     "is_superuser": true,
     "is_staff": true,
     "is_active": true,

@@ -11,6 +11,17 @@ from django.core.mail import send_mail
 
 
 # Create your views here.
+def to_email(msg):
+    message = f'''Пользователь {msg['name']} оставил сообщение:
+\n{msg['message']}\n\nКонтактный телефон: {msg['phone']}'''
+    send_mail(
+        subject='Отправлено сообщение с медицинского сайта',
+        message=message,
+        from_email=EMAIL_HOST_USER,
+        recipient_list=[EMAIL_HOST_USER],
+    )
+
+
 class HomePageView(TemplateView):
     template_name = 'home_page.html'
 
@@ -26,12 +37,7 @@ class HomePageView(TemplateView):
     def post(self, request, *args, **kwargs):
         if self.request:
             for e in request:
-                send_mail(
-                    subject='Отправлено сообщение с домашней страницы',
-                    message=f'{e.decode('utf-8')}',
-                    from_email=EMAIL_HOST_USER,
-                    recipient_list=[EMAIL_HOST_USER],
-                )
+                to_email(QueryDict(e.decode('utf-8'), mutable=True))
             return redirect('/')
         return render(request, self.template_name)
 
@@ -64,12 +70,7 @@ class ContactsView(TemplateView):
     def post(self, request, *args, **kwargs):
         if self.request:
             for e in request:
-                send_mail(
-                    subject='Отправлено сообщение со страницы contacts',
-                    message=f'{e.decode('utf-8')}',
-                    from_email=EMAIL_HOST_USER,
-                    recipient_list=[EMAIL_HOST_USER],
-                )
+                to_email(QueryDict(e.decode('utf-8'), mutable=True))
             return redirect('/')
         return render(request, self.template_name)
 
@@ -81,12 +82,7 @@ class FeedbackView(TemplateView):
     def post(self, request, *args, **kwargs):
         if self.request:
             for e in request:
-                send_mail(
-                    subject='Отправлено сообщение со страницы feedback',
-                    message=f'{e.decode('utf-8')}',
-                    from_email=EMAIL_HOST_USER,
-                    recipient_list=[EMAIL_HOST_USER],
-                )
+                to_email(QueryDict(e.decode('utf-8'), mutable=True))
             return redirect('/')
         return render(request, self.template_name)
 
